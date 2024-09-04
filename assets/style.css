@@ -1,4 +1,54 @@
-body {	color:#fff;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/bg.jpeg) right no-repeat fixed #fff;background-size: cover; -webkit-font-smoothing:antialiased;}
+@font-face {
+    font-family: 'ChulaDisplay';
+    src: url('fonts/chulabhornlikitdisplay-medium.eot');
+    src: url('fonts/chulabhornlikitdisplay-medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chulabhornlikitdisplay-medium.woff2') format('woff2'),
+         url('fonts/chulabhornlikitdisplay-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chula';
+    src: url('fonts/chulabhornlikittext-bold.eot');
+    src: url('fonts/chulabhornlikittext-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chulabhornlikittext-bold.woff2') format('woff2'),
+         url('fonts/chulabhornlikittext-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chula';
+    src: url('fonts/chulabhornlikittext-light.eot');
+    src: url('fonts/chulabhornlikittext-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chulabhornlikittext-light.woff2') format('woff2'),
+         url('fonts/chulabhornlikittext-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chula';
+    src: url('fonts/chulabhornlikittext-medium.eot');
+    src: url('fonts/chulabhornlikittext-medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chulabhornlikittext-medium.woff2') format('woff2'),
+         url('fonts/chulabhornlikittext-medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chula';
+    src: url('fonts/chulabhornlikittext-regular.eot');
+    src: url('fonts/chulabhornlikittext-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chulabhornlikittext-regular.woff2') format('woff2'),
+         url('fonts/chulabhornlikittext-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {	color:#fff;	font:300 15px/15px Chula,Arial,Helvetica;background:url(../images/bg.jpeg) right no-repeat fixed #fff;background-size: cover; -webkit-font-smoothing:antialiased;}
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -12,9 +62,9 @@ outline: none !important;
 }
 
 h1,h2,h3,h4{margin: 0;line-height: 1em;}
-h2{font:300 2.5em Josefin Sans,Arial,Helvetica;margin-bottom: 1.5em;}
-h3{font:300 2em Roboto,Arial,Helvetica;margin:2em 0 1em 0;}
-h4{font:300 1.5em Roboto,Arial,Helvetica;margin-bottom: 1em;}
+h2{font:300 2.5em Chula,Arial,Helvetica;margin-bottom: 1.5em;}
+h3{font:300 2em Chula,Arial,Helvetica;margin:2em 0 1em 0;}
+h4{font:300 1.5em Chula,Arial,Helvetica;margin-bottom: 1em;}
 h4 i{margin-right: 0.5em;}
 
 p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
@@ -38,8 +88,8 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background:rgba(0,0,0,0.9); }
 .banner .caption-wrapper{display: table;height: 100%;width: 100%;}
 .banner .caption-info{display: table-cell;vertical-align: middle;text-align: center;color: #fff;}
-.banner .caption-info h1{font:normal 4.5em Josefin Sans,Arial,Helvetica;text-transform:capitalize;}
-.banner .caption-info p{font:600 1.7em Josefin Sans,Arial,Helvetica;}
+.banner .caption-info h1{font:normal 4.5em Chula,Arial,Helvetica;text-transform:capitalize;}
+.banner .caption-info p{font:600 1.7em Chula,Arial,Helvetica;}
 .banner a.explore{color: #fff;}
 .explore{margin: 0 1em;}
 .banner img.profile{border:5px solid #333;}
@@ -77,17 +127,17 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 
 @media (max-width: 1200px) {
-	body{font:300 13px/13px Roboto,Arial,Helvetica;}
+	body{font:300 13px/13px Chula,Arial,Helvetica;}
 	
-	.grid figure h2{font: 700 1.5em Roboto,Arial,Helvetica;}
+	.grid figure h2{font: 700 1.5em Chula,Arial,Helvetica;}
 	figure.effect-oscar figcaption{padding: 12%;}
 	figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;}
 
 }
 
 @media (max-width: 900px) {
-	h1{font: 700 3.5em Roboto,Arial,Helvetica;}
-	h4 {font: 300 1.3em Roboto,Arial,Helvetica;}
+	h1{font: 700 3.5em Chula,Arial,Helvetica;}
+	h4 {font: 300 1.3em Chula,Arial,Helvetica;}
 	.btn{padding: 1em 2em;}
 	figure.effect-chico figcaption {padding: 2em;}	
 	figure.effect-oscar figcaption {padding: 20%;}
@@ -97,12 +147,12 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 
 @media (max-width: 767px) {
-	body{font:300 12px/12px Roboto,Arial,Helvetica;}
+	body{font:300 12px/12px Chula,Arial,Helvetica;}
 
 	.banner .caption,.carousel-caption,.carousel-control,.carousel-indicators{display: none;}
 
 	h2.text-center{text-align: left;font-size: 1.7em;}
-	h4 {font: 300 1.2em Roboto,Arial,Helvetica;}
+	h4 {font: 300 1.2em Chula,Arial,Helvetica;}
 	
 
 	.spacer{padding:2em 0 ;}
