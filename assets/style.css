@@ -1,49 +1,49 @@
 @font-face {
     font-family: 'ChulaDisplay';
     src: url('fonts/chulabhornlikitdisplay-medium.eot');
-    src: url('../assets/fonts/chulabhornlikitdisplay-medium.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/chulabhornlikitdisplay-medium.woff2') format('woff2'),
-         url('../assets/fonts/chulabhornlikitdisplay-medium.woff') format('woff');
+    src: url('../fonts/chulabhornlikitdisplay-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chulabhornlikitdisplay-medium.woff2') format('woff2'),
+         url('../fonts/chulabhornlikitdisplay-medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Chula';
-    src: url('../assets/fonts/chulabhornlikittext-bold.eot');
-    src: url('../assets/fonts/chulabhornlikittext-bold.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/chulabhornlikittext-bold.woff2') format('woff2'),
-         url('../assets/fonts/chulabhornlikittext-bold.woff') format('woff');
+    src: url('../fonts/chulabhornlikittext-bold.eot');
+    src: url('../fonts/chulabhornlikittext-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chulabhornlikittext-bold.woff2') format('woff2'),
+         url('../fonts/chulabhornlikittext-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Chula';
-    src: url('../assets/fonts/chulabhornlikittext-light.eot');
-    src: url('../assets/fonts/chulabhornlikittext-light.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/chulabhornlikittext-light.woff2') format('woff2'),
-         url('../assets/fonts/chulabhornlikittext-light.woff') format('woff');
+    src: url('../fonts/chulabhornlikittext-light.eot');
+    src: url('../fonts/chulabhornlikittext-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chulabhornlikittext-light.woff2') format('woff2'),
+         url('../fonts/chulabhornlikittext-light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Chula';
-    src: url('../assets/fonts/chulabhornlikittext-medium.eot');
-    src: url('../assets/fonts/chulabhornlikittext-medium.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/chulabhornlikittext-medium.woff2') format('woff2'),
-         url('../assets/fonts/chulabhornlikittext-medium.woff') format('woff');
+    src: url('../fonts/chulabhornlikittext-medium.eot');
+    src: url('../fonts/chulabhornlikittext-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chulabhornlikittext-medium.woff2') format('woff2'),
+         url('../fonts/chulabhornlikittext-medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Chula';
-    src: url('../assets/fonts/chulabhornlikittext-regular.eot');
-    src: url('../assets/fonts/chulabhornlikittext-regular.eot?#iefix') format('embedded-opentype'),
-         url('../assets/fonts/chulabhornlikittext-regular.woff2') format('woff2'),
-         url('../assets/fonts/chulabhornlikittext-regular.woff') format('woff');
+    src: url('../fonts/chulabhornlikittext-regular.eot');
+    src: url('../fonts/chulabhornlikittext-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chulabhornlikittext-regular.woff2') format('woff2'),
+         url('../fonts/chulabhornlikittext-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
