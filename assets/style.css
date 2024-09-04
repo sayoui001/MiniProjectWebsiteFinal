@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'ChulaDisplay';
-    src: url('fonts/chulabhornlikitdisplay-medium.eot');
+    src: url('../fonts/chulabhornlikitdisplay-medium.eot');
     src: url('../fonts/chulabhornlikitdisplay-medium.eot?#iefix') format('embedded-opentype'),
          url('../fonts/chulabhornlikitdisplay-medium.woff2') format('woff2'),
          url('../fonts/chulabhornlikitdisplay-medium.woff') format('woff');
