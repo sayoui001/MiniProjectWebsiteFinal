@@ -76,6 +76,7 @@
 html,
 body {
     height: 100%;
+    font-size: 16px;
     font-family: 'Chula', sans-serif;
     line-height: 1.8;
     color: #999
